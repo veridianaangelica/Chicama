@@ -1,0 +1,78 @@
+*{
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body{
+	margin:auto;
+}
+.contenedor{
+	background:url("../img/grupal.jpg") top center;
+	background-size: cover;
+	-webkit-background-size:cover;
+	border-top:1px solid transparent;
+    height: 700px;
+}
+.logo img{
+	width: 25%;
+}
+.logo{
+	text-align: center;
+	margin-top:70px;
+}
+.menu{
+	display: block;
+	position: absolute;
+	right: 0;
+}
+.menu ul{
+    list-style: none;
+    width: 400px;
+}
+.menu li{
+	padding: 10px;
+	display: inline-block;
+}
+.menu a:hover, .menu a:focus,.menu a:active{
+	color:white;
+	background:gray;
+	-webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;
+    transform:rotatex(360deg);
+}
+
+.inicio,.nosotros,.contacto{
+	font-size: 15px;
+}
+.sumate{
+	width: 90px;
+	height: 60px;
+	background: orange;
+	font-size: 16px;
+	position: relative;
+	text-align: center;
+	padding: 18px;
+	margin:-50px 0 0 250px;
+}
+.grupal1{
+	width: 250px;
+}
+.grupal{
+	display: inline-block;
+	margin:50px 15px 15px 0;
+}
+.contenedor-2{
+	text-align: center;
+}
+.footer{
+	background:#333333;
+	height: 70px;
+}
+.pie-de-pagina{
+	color:white;
+	padding: 25px 0 0 280px;
+	text-align: left;
+}
+
